@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>agent</title>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	793ed0c4b444aadf0c21bf5251f0a00c"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=793ed0c4b444aadf0c21bf5251f0a00c"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
-asdf
+<header>
+    <div class="content sb">
+        <div class="logo">로고</div>
+        <nav>
+            <ul class="row">
+                <li><a href="map.html">매물 검색</a></li>
+                <li><a href="#">매물 내놓기</a></li>
+                <li><a href="#">부동산 전문가</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="visual">
+        비주얼 부분입니다.
+        <div class="search">
+            <div class="search_content">
+                <div class="row">
+                    <div class="option chk">매매</div>
+                    <div class="option">임대</div>
+                </div>
+                <div class="row">
+                    <input type="text">
+                    <div class="search_btn btn">
+                        검색
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="introduce">
+        <div class="row">
+            <div class="card introduce_service">
+                <div class="card_content service_content">
+                    Agent는 종이서류 없이 편리하게 부동산 거래를 할 수 있으며,<br>
+                    위조 및 변조 우려를 할 필요가 없습니다.
+                </div>
+                <div class="service_btn btn">
+                    더 알아보기
+                </div>
+            </div>
+            <div class="card introduce_help">
+                <div class="card_content help_content">
+                    Agent는 뛰어난 전문가들을 통해 여러분들의 매물을 고르기 쉽게 도와드리며,<br>
+                    여러분의 주택을 판매드리겠습니다.
+                </div>
+                <div class="help_btn btn">
+                    더 알아보기
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="content row">
+            <div class="news_one">
+                <div class="news_content">
+                    <h1>앞으로 보여드릴 상품</h1>
+                    3d 앱을 통해 집을 좀 더 자세하게 살펴 볼 수 있습니다.
+                </div>
+            </div>
+            <div class="notice">
+                <h1>공지</h1>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>

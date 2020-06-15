@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>agent</title>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	793ed0c4b444aadf0c21bf5251f0a00c"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=793ed0c4b444aadf0c21bf5251f0a00c"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="app.js"></script>
 </head>
 <body>
-    <div id="map" style="width:500px;height:400px;">
-        
+<header>
+    <div class="content sb">
+        <div class="logo">로고</div>
+        <nav>
+            <ul class="row">
+                <li><a href="map.html">매물 검색</a></li>
+                <li><a href="#">매물 내놓기</a></li>
+                <li><a href="#">부동산 전문가</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </nav>
     </div>
-    <script>
-		var container = document.getElementById('map');
-		var options = {
-			center: new kakao.maps.LatLng(33.450701, 126.570667),
-			level: 3
-		};
+</header>
+<main>
+    <section>
+        <div id="map" style="width:500px;height:400px;">
 
-		var map = new kakao.maps.Map(container, options);
-	</script>
+        </div>
+    </section>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
